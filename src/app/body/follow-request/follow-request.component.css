@@ -1,0 +1,63 @@
+.fRequest{
+  display: flex;
+  width: 100%;
+  margin-left: 0;
+}
+.fLeft{
+width:70%;
+margin-left: 0;
+padding-top:3%;
+
+}
+.fRight{
+  width:30%;
+  margin-top:3%;
+
+}
+.followRequestHolder{
+display: flex;
+align-items: center;
+padding-left: 3%;
+
+
+
+}
+.f1 img{
+  height:55px;
+  width:55px;
+  border-radius: 100px;
+  margin-left: 0.8%;
+
+
+
+}
+.f1{
+
+  background-color: white;
+  width:100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid blueviolet;
+}
+.fname{
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 1.2%;
+}
+.text{
+  margin-left:1%;
+  word-spacing: 0.2em;
+  letter-spacing: 0.2em;
+}
+.fButton{
+  margin-left:1.5%;
+
+}
+.fButton button{
+  width:150px;
+  height: 35px;
+  border-radius: 10px;
+  border:0;
+  color:red;
+}

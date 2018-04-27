@@ -1,0 +1,109 @@
+.newMessage{
+  width: 100%;
+}
+.header{
+ width:90%;
+ margin: 0 auto;
+ height:40px;
+ background-color: cadetblue;
+ display: flex;
+ align-items: center;
+}
+.body{
+  width:90%;
+  margin: 0 auto;
+
+
+}
+.footer{
+  width:90%;
+  margin: 0 auto;
+  height:50px;
+  background-color: brown;
+ display: flex;
+ align-items: center;
+
+}
+.loadMore{
+  margin: 0 auto;
+}
+.loadMore button{
+  width:130px;
+  height: 35px;
+  font-size: 17px;
+  border-radius: 20px;
+}
+.messageHeader{
+  width:98%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background-color: blue;
+
+}
+.mesageBody{
+width: 98%;
+margin: 0 auto;
+display: flex;
+align-items: center;
+
+}
+.messageImageName{
+  width:70%;
+}
+.dateTime{
+  width: 30%;
+}
+.dateTime{
+
+}
+.imageM img{
+  width:45px;
+  height:45px;
+  border-radius: 100px;
+
+}
+.dateTimeLeft{
+  float: right;
+}
+.MINDiv{
+display: flex;
+align-items: center;
+}
+.messageHolder{
+  border:1px solid red;
+}
+.MBody{
+  line-height: 1.2em;
+  padding:0.5% 0.4% 1% 0.4%;
+}
+.nameTimetext{
+  margin-left:1%;
+}
+.nameTimetext span {
+line-height: 1.2em;
+
+display: block;
+}
+.nameM{
+  font-size: 17px;
+  font-weight: 400;
+}
+.timeM{
+   font-size: 12px;
+}
+.replyM{
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+}
+.blockM button{
+  width:75px;
+  border-radius: 50px;
+  border:0;
+}
+.replyM button{
+  width:75px;
+  border-radius: 50px;
+  border:0;
+}

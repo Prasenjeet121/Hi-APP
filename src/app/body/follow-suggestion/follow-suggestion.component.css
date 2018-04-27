@@ -1,0 +1,79 @@
+.topS{
+text-align: center;
+margin-top:3%;
+}
+.topTextS{
+  width:90%;
+  margin: 0 auto;
+  border-bottom: 1px solid red;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: blueviolet;
+
+}
+.seeAll{
+  float: right;
+  padding-right:4%;
+}
+.sugText{
+  float: left;
+}
+.suggestionDiv{
+  width:50%;
+}
+.seeAllDiv{
+  width: 50%;
+}
+
+
+/* other follow suggestion */
+
+.bottomS{
+padding-top: 5%;
+}
+.suggestionFollow{
+  width:90%;
+  display: flex;
+  align-items: center;
+  margin:0 auto;
+  margin-bottom: 4%;
+
+}
+.leftSF{
+  width:50%;
+  display: flex;
+  align-items: center;
+
+}
+.rightSF{
+  width: 50%;
+}
+.buttonSF{
+  float: right;
+}
+.rightSF{
+  float: left;
+}
+.imageSF img{
+  width:45px;
+  height: 45px;
+  border-radius: 100px;
+}
+.nameAddSF{
+ margin-left: 5.3%;
+}
+.nameAddSF span {
+  display: block;
+  line-height: 1.4em;
+}
+.addSF{
+  font-size: 13px;
+}
+.buttonSF button{
+  width: 89px;
+border-radius: 4px;
+}
+.nameSF{
+  font-weight: bold;
+}

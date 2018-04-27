@@ -1,0 +1,74 @@
+.tabs12{
+  height:55px;
+  background-color: blue;
+  margin-top: 1%;
+  border-bottom: 1px solid gray;
+
+}
+.tabHolder{
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+
+}
+.postTab{
+ width:33.33%;
+
+ background-color: hotpink;
+ display: flex;
+ align-items: center;
+ height: 100%;
+}
+.postTab p{
+  margin: 0 auto;
+
+}
+.postTab:hover{
+  border: 1px solid grey;
+  border-bottom: 0px solid gray;
+}
+
+.savedTab{
+  width:33.33%;
+  background-color: indigo;
+  display: flex;
+ align-items: center;
+ height: 100%;
+
+}
+.savedTab p{
+  margin: 0 auto;
+}
+.savedTab:hover{
+  border: 1px solid grey;
+  border-bottom: 0px solid gray;
+}
+.detailsTab{
+  width:33.33%;
+  background-color: lawngreen;
+  display: flex;
+ align-items: center;
+ height: 100%;
+
+}
+.detailsTab p{
+  margin: 0 auto;
+}
+.detailsTab:hover{
+  border: 1px solid grey;
+  border-bottom: 0px solid gray;
+}
+.quotesHolder{
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.quotesHolder p{
+  margin: 0 auto;
+
+}
+.tab13{
+  display: flex;
+  align-items: center;
+}

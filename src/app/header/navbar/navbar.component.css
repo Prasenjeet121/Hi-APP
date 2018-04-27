@@ -1,0 +1,35 @@
+.headingsIconHolder{
+display: flex;
+
+align-items: center;
+
+
+}
+.headings{
+
+  height: 65px;
+  background-color:#EBEBEB;
+
+}
+.iconHolder{
+  width: 10%;
+  text-align: center;
+}
+.iconHolder img{
+  height:35px;
+  width:35px;
+}
+.searchHolder{
+width: 40%;
+}
+.searchHolder input{
+  height:35px;
+  width: 100%;
+  border-radius: 100px;
+  border: 0;
+  text-align: center;
+  color: gray;
+}
+.searchHolder input:focus{
+  border-radius: 0;
+}
