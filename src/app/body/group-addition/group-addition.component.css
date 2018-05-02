@@ -1,0 +1,114 @@
+.gHeader{
+  width: 90%;
+  margin: 0 auto;
+  margin-top:2%;
+  margin-bottom:2%;
+  border-bottom: 1px solid red;
+  padding-bottom: 1%;
+
+}
+.upperSecG{
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.gBody{
+  width: 90%;
+  margin: 0 auto;
+
+
+}
+.gFooter{
+  width: 90%;
+  margin: 0 auto;
+
+}
+.imageInputG{
+width:90%;
+}
+.gTotalLimit{
+  width:10%;
+}
+.imageInputG{
+  display: flex;
+  align-items: center;
+}
+.textLimitG{
+  float: right;
+}
+.friendsListG{
+  width:90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5%;
+}
+.leftFrndG{
+  width:80%;
+  display: flex;
+  align-items: center;
+}
+.rightFrndG{
+  width:20%;
+}
+.imageFrenG img{
+  height:45px;
+  width:45px;
+  border-radius: 100px;
+  border:1px solid red;
+}
+.nameAddFrenG{
+  margin-left: 1.4%;
+}
+.nameAddFrenG span{
+  display: block;
+  line-height: 1.45em;
+}
+.buttonAdd{
+  float: right;
+}
+.buttonAdd button{
+  width:160px;
+  height:45px;
+  border-radius: 55px;
+   border:1px solid gray;
+}
+.imageUploadG{
+  display: block;
+   height: 100px;
+   width: 100px;
+   background-color: blueviolet;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   border-radius: 100px;
+   margin-right: 3%;
+
+}
+.imageArea{
+  margin: 0 auto;
+}
+.inputG input{
+  border:0;
+  border-bottom:1px solid gray;
+
+}
+.nameFrndG{
+  font-weight: bold;
+}
+.addFrndG{
+  font-size: 13px;
+}
+.loadMoreG{
+  margin:0 auto;
+}
+.gFooter{
+  display: flex;
+  align-items: center;
+}
+.loadMoreG img{
+  width:33px;
+  height:33px;
+
+}

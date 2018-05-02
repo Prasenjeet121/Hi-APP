@@ -16,6 +16,18 @@ import { NotificationComponent } from './body/notification/notification.componen
 import { OnlineUsersComponent } from './body/online-users/online-users.component';
 import { NewMessageComponent } from './body/new-message/new-message.component';
 import { StrangeMessageComponent } from './body/strange-message/strange-message.component';
+import { GroupAdditionComponent } from './body/group-addition/group-addition.component';
+import { HomePageComponent } from './body/home/home-page/home-page.component';
+import { HomeOnlineDistanceComponent } from './body/home/home-online-distance/home-online-distance.component';
+import { TextHomePostComponent } from './body/home/text-home-post/text-home-post.component';
+import { PhotosHomePostComponent } from './body/home/photos-home-post/photos-home-post.component';
+import { VideosHomePostComponent } from './body/home/videos-home-post/videos-home-post.component';
+import { LinkHomePostComponent } from './body/home/link-home-post/link-home-post.component';
+import { ChatRoomComponent } from './body/chat-room/chat-room.component';
+import { PeopleSingleListComponent } from './body/chat-room/single-chat/people-single-list/people-single-list.component';
+import { ChatSingleBodyComponent } from './body/chat-room/single-chat/chat-single-body/chat-single-body.component';
+import { PeopleSingleListService } from './body/chat-room/single-chat/people-single-list/people-single-list.service';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -32,13 +44,25 @@ import { StrangeMessageComponent } from './body/strange-message/strange-message.
     NotificationComponent,
     OnlineUsersComponent,
     NewMessageComponent,
-    StrangeMessageComponent
+    StrangeMessageComponent,
+    GroupAdditionComponent,
+    HomePageComponent,
+    HomeOnlineDistanceComponent,
+    TextHomePostComponent,
+    PhotosHomePostComponent,
+    VideosHomePostComponent,
+    LinkHomePostComponent,
+    ChatRoomComponent,
+    PeopleSingleListComponent,
+    ChatSingleBodyComponent
   ],
   imports: [
     NgbModule.forRoot(),
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule
+
   ],
-  providers: [],
+  providers: [PeopleSingleListService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

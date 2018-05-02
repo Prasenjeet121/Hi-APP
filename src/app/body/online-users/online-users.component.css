@@ -1,0 +1,71 @@
+.onlinePeople{
+  width: 100%;
+}
+.onlineHeader{
+  width:90%;
+  margin:0 auto;
+  margin-bottom: 2.1%;
+  margin-top:1%;
+
+}
+.onlineBody{
+  width:90%;
+  margin:0 auto;
+
+
+}
+.onlineFooter{
+  width:90%;
+  margin:0 auto;
+
+
+
+}
+.onlineBodyCon{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid red;
+  padding-bottom: 0.6%;
+  margin-bottom: 1.7%;
+}
+.leftOn{
+ width:70%;
+ display: flex;
+ align-items: center;
+
+}
+.rightOn{
+width:30%;
+}
+.nameAddOn span{
+  display: block;
+}
+.imageOn img{
+  height:45px;
+  width:45px;
+  border-radius: 100px;
+  border:1px solid blue;
+}
+.nameAddOn{
+  margin-left: 1.4%;
+}
+.messageOn{
+  float: right;
+}
+.onlineText{
+  font-size: 18px;
+  font-weight: 400;
+}
+.messageOn button{
+  width:160px;
+  border-radius: 50px;
+  border:0;
+  font-size: 17px;
+  height: 40px;
+}
+.nameOn{
+  font-weight: bold;
+}
+.addOn{
+  font-size: 12px;
+}

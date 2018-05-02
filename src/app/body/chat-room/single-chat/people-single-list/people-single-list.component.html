@@ -1,0 +1,62 @@
+
+<div class="sliderHolder">
+  <div class="leftArrowPeople">
+    <div class="arrowDivLeftPeople" (click)="prevPeopleSingle()">
+        <span class="arrowLeftImgPeople">
+            <img src="../../../../../assets/chat-room-icons/slide-left-ico.png" alt="">
+          </span>
+    </div>
+
+  </div>
+  <div class="bodyPeople" *ngIf="isRight; else anotherOne">
+
+
+
+        <div *ngFor="let peopleSingleBody of  arrayToDisplay" class="mainSinglePeople "   @flyInOut>
+            <span class="profileImgPeople">
+              <img src={{peopleSingleBody.ProfileOfPerson}} alt="">
+            </span>
+            <span class="nameStatusPeople">
+              <span class="textName"> {{peopleSingleBody.nameOfThePerson }}</span>
+              <span class="textStatus"> {{peopleSingleBody.statusOfPerson }}</span>
+            </span>
+           </div>
+
+</div>
+
+
+
+
+        <ng-template #anotherOne>
+          <div class="bodyPeople">
+              <div *ngFor="let peopleSingleBody of  arrayToDisplay" class="mainSinglePeople " @flyInOutIN>
+                  <span class="profileImgPeople">
+                    <img src={{peopleSingleBody.ProfileOfPerson}} alt="">
+                  </span>
+                  <span class="nameStatusPeople">
+                    <span class="textName"> {{peopleSingleBody.nameOfThePerson }}</span>
+                    <span class="textStatus"> {{peopleSingleBody.statusOfPerson }}</span>
+                  </span>
+                </div>
+          </div>
+
+        </ng-template>
+
+
+
+  <div class="rightArrowpeople">
+    <div class="arrowDivRightPeople" (click)="nextPeopleSingle()">
+        <span class="arrowRightImgPeople">
+            <img src="../../../../../assets/chat-room-icons/slide-right-ico.png" alt="">
+          </span>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
