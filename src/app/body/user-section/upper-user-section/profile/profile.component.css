@@ -1,20 +1,21 @@
 .profileHolder{
-  background-color: dodgerblue;
+  background-color:#FFFFFF;
   height: 170px;
 }
 .profileRight{
-   background-color: deeppink;
+   background-color: #FFFFFF;
+
 
 }
 .profileLeft{
-  background-color: darkred;
+  background-color: #FFFFFF;
   display: flex;
   align-items: center;
 
 }
 .profilePicture{
   width: 35%;
-  background-color: darkslateblue;
+  background-color: #FFFFFF;
   height: 100%;
  display: flex;
  align-items: center;
@@ -24,7 +25,7 @@
 .profilePicture img{
   height:145px;
   width: 145px;
-  border: 1px solid pink;
+  border: 3px solid #962CB3;
   border-radius: 100px;
  margin-left: 25%;
 
@@ -32,7 +33,7 @@
 }
 .profileDetail{
   width: 65%;
-  background-color:darkorange;
+  background-color:#FFFFFF;
   height: 100%;
   padding-top:2.8%;
 }
@@ -40,7 +41,7 @@
   margin-bottom: 0.5%;
 }
 .userName{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:  auto;
   font-size: 20px;
   font-style: italic;
 }
@@ -51,7 +52,7 @@
 }
 .website{
   font-size: 18px;
-
+font-weight: 400;
   font-style: italic;
 }
 .website img{
@@ -67,12 +68,15 @@
   width: 20%;
   font-size: 18px;
   margin-right: 4.5%;
+  font-weight: 500;
+  color:#962CB3;
 }
 .birth{
 width: 80%;
 border-left: 1px solid blue;
 padding-left: 5.3%;
 font-size: 18px;
+font-style:italic;
 }
 .relation img{
   height:22px;
@@ -92,7 +96,7 @@ font-size: 18px;
 
 }
 .post{
-   background-color: darkblue;
+   background-color: #FFFFFF;
    height: 100%;
    width: 25%;
    display: flex;
@@ -106,7 +110,7 @@ font-size: 18px;
   align-items: center;
 }
 .follow{
-  background-color: darkcyan;
+  background-color: #FFFFFF;
   height: 100%;
   width: 25%;
   display: flex;
@@ -118,7 +122,7 @@ font-size: 18px;
   align-items: center;
 }
 .following{
-background-color: darkgreen;
+background-color: #FFFFFF;
 height: 100%;
 width: 25%;
 display: flex;
@@ -131,28 +135,39 @@ align-items: center;
   align-items: center;
 }
 .editProfile{
-background-color: darkorange;
+background-color: #FFFFFF;
 height: 100%;
 width: 25%;
 }
 .postInside{
   font-size: 24px;
+  font-weight: 200;
 
 }
 .followInside{
   font-size: 24px;
+  font-weight: 200;
 }
 .followingInside{
   font-size: 24px;
+  font-weight: 200;
 }
 .post .num{
   font-size: 24px;
+  font-weight: 200;
+  margin-right:5%;
 }
 .follow .num{
   font-size: 24px;
+  font-weight: 200;
+  margin-right:5%;
+
 }
 .following .num{
 font-size: 24px;
+font-weight: 200;
+margin-right:5%;
+
 }
 .editProfile{
   display: flex;
@@ -162,11 +177,11 @@ font-size: 24px;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  border: 1px solid pink;
+  border: 1px solid #747474;
   padding:8%;
   border-radius: 10px;
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 400;
 
 }
 .editOption p {

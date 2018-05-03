@@ -4,7 +4,7 @@
 }
 .textDivNA{
   width:30%;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid gray;
   padding-bottom: 0.4%;
   padding-left:0.5%;
 
@@ -17,6 +17,8 @@
 .textNoti{
   font-weight: 400;
   font-size: 19px;
+  font-weight: 500;
+  color:gray;
 
 }
 
@@ -34,6 +36,8 @@
 .time{
   display: block;
   font-size: 14px;
+  color:gray;
+  font-style: italic;
 }
 .readButton{
   float: right;
@@ -42,6 +46,7 @@
   height:45px;
   width:45px;
   border-radius: 100px;
+  border:2px solid #9900FF;
 
 }
 .rightNB{
@@ -59,4 +64,7 @@
   border-radius: 5px;
   width: 140px;
   height:40px;
+  color:white;
+  background-color: #9900FF;
+  border:0;
 }

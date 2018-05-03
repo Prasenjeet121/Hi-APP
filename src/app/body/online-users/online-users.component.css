@@ -1,5 +1,8 @@
 .onlinePeople{
   width: 100%;
+  background-color: #EBEBEB;
+  padding-bottom:3%;
+  padding-top:1%;
 }
 .onlineHeader{
   width:90%;
@@ -24,7 +27,7 @@
 .onlineBodyCon{
   display: flex;
   align-items: center;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #A2A2A2;
   padding-bottom: 0.6%;
   margin-bottom: 1.7%;
 }
@@ -44,7 +47,7 @@ width:30%;
   height:45px;
   width:45px;
   border-radius: 100px;
-  border:1px solid blue;
+  border:1px solid #0000FF;
 }
 .nameAddOn{
   margin-left: 1.4%;
@@ -55,6 +58,9 @@ width:30%;
 .onlineText{
   font-size: 18px;
   font-weight: 400;
+  color:#0000FF;
+  font-weight: 500;
+
 }
 .messageOn button{
   width:160px;
@@ -62,10 +68,28 @@ width:30%;
   border:0;
   font-size: 17px;
   height: 40px;
+  background-color: #607D8B;
+  color:#E8E8E8;
 }
 .nameOn{
-  font-weight: bold;
+  font-weight: 500;
+
 }
 .addOn{
   font-size: 12px;
+}
+.ImgMore{
+  margin:0 auto;
+
+}
+.onlineFooter{
+  display: flex;
+  align-items: center;
+  width:100%;
+}
+.ImgMore img{
+  height:32px;
+  width:32px;
+  color:red;
+
 }

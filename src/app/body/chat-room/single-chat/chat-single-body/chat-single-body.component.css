@@ -2,18 +2,18 @@
   display: flex;
   align-items: center;
   height:70px;
-  background-color: darkmagenta;
+  background-color: #607D8B;
 }
 .add-to-group-image-single{
  float: left;
- margin-left: 2%;
+ margin-left: 7%;
 }
 .profile-picture-image-single{
   margin:0 auto;
 }
 .chat-setting-image-single{
   float: right;
-  margin-right: 2%;
+  margin-right: 7%;
 }
 .add-to-group-single{
  width:33.333%;
@@ -60,6 +60,7 @@
 }
 .textStatus{
  display: inline-flex;
+ color:white;
 }
 .image-status-online{
   display: block;
@@ -69,7 +70,7 @@
 
 .body-single{
   height:300px;
-  background-color: lawngreen;
+  background-color: #E8E8E8;
 }
 
 
@@ -80,7 +81,7 @@
   margin: 0 auto;
   height:45px;
 
- border-top:1px solid red;
+ border-top:1px solid gray;
 display: flex;
 align-items: center;
 }
@@ -101,7 +102,7 @@ width:15%;
   width:100%;
   height:44px;
   border:0;
-  background-color: lawngreen;
+  background-color: #E8E8E8;
   text-align: center;
 }
 .inputHolder input:focus{
@@ -126,5 +127,5 @@ width:15%;
   margin-right: 5%;
 }
 .footer-single{
-  background-color: lawngreen;
+  background-color: #E8E8E8;
 }

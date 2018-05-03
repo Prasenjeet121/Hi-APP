@@ -1,3 +1,8 @@
+.groupAddition{
+  background-color: #EBEBEB;
+  padding-top:2%;
+  padding-bottom:3%;
+}
 .gHeader{
   width: 90%;
   margin: 0 auto;
@@ -56,7 +61,7 @@ width:90%;
   height:45px;
   width:45px;
   border-radius: 100px;
-  border:1px solid red;
+  border:1px solid #000000;
 }
 .nameAddFrenG{
   margin-left: 1.4%;
@@ -72,13 +77,16 @@ width:90%;
   width:160px;
   height:45px;
   border-radius: 55px;
-   border:1px solid gray;
+   border:1px solid #4A86E8;
+   background-color: #E8E8E8;
+   color:#9900FF;
+   font-weight: 500;
 }
 .imageUploadG{
   display: block;
    height: 100px;
    width: 100px;
-   background-color: blueviolet;
+   background-color: #B9B9B9;
    display: flex;
    align-items: center;
    text-align: center;
@@ -88,17 +96,21 @@ width:90%;
 }
 .imageArea{
   margin: 0 auto;
+  color:white;
 }
 .inputG input{
   border:0;
   border-bottom:1px solid gray;
+  outline: none;
+  background-color: #EBEBEB;
 
 }
 .nameFrndG{
-  font-weight: bold;
+  font-weight: 500;
+
 }
 .addFrndG{
-  font-size: 13px;
+  font-size: 12px;
 }
 .loadMoreG{
   margin:0 auto;

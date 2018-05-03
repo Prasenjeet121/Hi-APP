@@ -1,6 +1,6 @@
 .tabs12{
   height:55px;
-  background-color: blue;
+  background-color: white;
   margin-top: 1%;
   border-bottom: 1px solid gray;
 
@@ -10,28 +10,33 @@
   align-items: center;
   width: 50%;
   height: 100%;
+  border-right: 2px solid #6F6C6C;
+
 
 }
 .postTab{
  width:33.33%;
-
- background-color: hotpink;
+ background-color: white;
  display: flex;
  align-items: center;
  height: 100%;
 }
 .postTab p{
   margin: 0 auto;
-
+   font-size: 20px;
+   font-weight: 400;
 }
+
 .postTab:hover{
   border: 1px solid grey;
   border-bottom: 0px solid gray;
+
+
 }
 
 .savedTab{
   width:33.33%;
-  background-color: indigo;
+  background-color: white;
   display: flex;
  align-items: center;
  height: 100%;
@@ -39,6 +44,8 @@
 }
 .savedTab p{
   margin: 0 auto;
+  font-size: 20px;
+  font-weight: 400;
 }
 .savedTab:hover{
   border: 1px solid grey;
@@ -46,14 +53,18 @@
 }
 .detailsTab{
   width:33.33%;
-  background-color: lawngreen;
+  background-color: white;
   display: flex;
  align-items: center;
  height: 100%;
+ margin-right:2%;
+
 
 }
 .detailsTab p{
   margin: 0 auto;
+  font-size: 20px;
+  font-weight: 400;
 }
 .detailsTab:hover{
   border: 1px solid grey;
@@ -66,6 +77,9 @@
 }
 .quotesHolder p{
   margin: 0 auto;
+
+  font-size:16px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 .tab13{

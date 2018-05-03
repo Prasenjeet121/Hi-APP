@@ -5,9 +5,13 @@ width:35%;
 }
 .imgp1{
   height:45px;
-  background-color: darkblue;
+  background-color: #FFFFFF;
   display: flex;
   align-items: center;
+
+}
+.name{
+  font-weight: 500;
 
 }
 .imageName{
@@ -32,7 +36,8 @@ width:35%;
  margin-left: 3%;
 }
 .nameLocation .location{
-  font-size: 10px;
+  font-size: 11px;
+  color:grey;
 }
 .nameLocation span{
   margin:0;
@@ -43,13 +48,14 @@ width:35%;
 .postTime{
   float: right;
   margin-right:9%;
+  color:gray;
 }
 .imgp2{
  background-color: gray;
 }
 .imgp3{
  height:45px;
- background-color: darkgreen;
+ background-color: #FFFFFF;
  display: flex;
  align-items: center;
 }
@@ -100,7 +106,7 @@ width:35%;
 }
 .imgp5{
   height:25px;
-  background-color: brown;
+  background-color: #FFFFFF;
   color:gray;
   font-size: 14px;
 
@@ -113,13 +119,13 @@ width:35%;
 }
 .imgp7{
   height:25px;
-  background-color: chartreuse;
+  background-color: #FFFFFF;
 }
 .imgp8{
  display: flex;
  align-items: center;
  height: 55px;
- border-top:1px solid pink;
+ border-top:1px solid #5D5D5D;
  margin-left: 2.4%;
  margin-right: 2.4%;
 }
@@ -136,6 +142,7 @@ width:35%;
   border:0;
   width:100%;
   height:54px;
+  outline: none;
 
 }
 .commentHere:focus{

@@ -1,36 +1,57 @@
 
 <div class="row headings">
-  <div class="col-sm-12 headingsIconHolder">
-
-    <div class="iconHolder">
-      <img src="../../../assets/navBarIcons/setting.png" alt="settings">
-    </div>
-
-    <div class="iconHolder">
-      <img src="../../../assets/navBarIcons/ads.png" alt="ads details">
-    </div>
-
-    <div class="iconHolder">
-        <img src="../../../assets/navBarIcons/msg.png" alt="message notification">
-      </div>
-
-      <div class="searchHolder">
-         <input type="text" placeholder="search">
-        </div>
-
-      <div class="iconHolder">
-          <img src="../../../assets/navBarIcons/notification.png" alt="notification">
-        </div>
+  <div class="col-sm-12 colHeading">
+    <div class="headingsIconHolder">
 
         <div class="iconHolder">
-            <img src="../../../assets/navBarIcons/friend request ico.png" alt="friend request">
+            <img src="../../../assets/navBarIcons/setting.png" alt="settings">
           </div>
 
           <div class="iconHolder">
-              <img src="../../../assets/navBarIcons/user.png" alt="user profile">
+            <img src="../../../assets/navBarIcons/ads.png" alt="ads details">
+          </div>
+
+          <div class="iconHolder">
+              <img src="../../../assets/navBarIcons/msg.png" alt="message notification">
             </div>
+
+            <div class="searchHolder">
+
+             <input type="text" placeholder="search" (focus)="focusFunctionSearch()" (focusout)="focusOutFunctionSearch()">
+              </div>
+
+            <div class="iconHolder">
+                <img src="../../../assets/navBarIcons/notification.png" alt="notification">
+              </div>
+
+              <div class="iconHolder">
+                  <img src="../../../assets/navBarIcons/friend request ico.png" alt="friend request">
+                </div>
+
+                <div class="iconHolder">
+                    <img src="../../../assets/navBarIcons/user.png" alt="user profile">
+                  </div>
+
+    </div>
 
 
   </div>
+
+
+
 </div>
 
+
+
+
+<div class=" searchResultHolder" *ngIf="IsinputSearchFocus">
+    <div class="searchResultBodyHolder">
+        <app-search-result></app-search-result>
+      </div>
+      <div class="loadMoreResult">
+        <div class="textLoadMoreSecond">
+            <span class="textLoadMore">see more</span>
+        </div>
+
+      </div>
+</div>

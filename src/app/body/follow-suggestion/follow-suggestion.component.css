@@ -5,11 +5,11 @@ margin-top:3%;
 .topTextS{
   width:90%;
   margin: 0 auto;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #A2A2A2;
   display: flex;
   align-items: center;
   height: 40px;
-  background-color: blueviolet;
+  background-color: white;
 
 }
 .seeAll{
@@ -18,12 +18,14 @@ margin-top:3%;
 }
 .sugText{
   float: left;
+  font-weight: 500;
 }
 .suggestionDiv{
   width:50%;
 }
 .seeAllDiv{
   width: 50%;
+
 }
 
 
@@ -72,8 +74,11 @@ padding-top: 5%;
 }
 .buttonSF button{
   width: 89px;
-border-radius: 4px;
+border-radius: 5px;
+background-color: #4A86E8;
+color:white;
+border:0;
 }
 .nameSF{
-  font-weight: bold;
+  font-weight: 500;
 }

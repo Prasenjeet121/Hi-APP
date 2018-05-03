@@ -1,0 +1,20 @@
+.bodySingleHolder{
+  padding-top:2%;
+  border-top:1px solid gray;
+  display: flex;
+  align-items: stretch;
+}
+.listSingleHolder{
+  padding-bottom: 1%;
+  margin-top:2%;
+  margin-left:0;
+  margin-right: 0;
+
+}
+.bodySingleHolder1{
+
+  flex-grow:1;
+  margin-right:1%;
+  margin-left: 1%;
+  height:100px;
+}

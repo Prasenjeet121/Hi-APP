@@ -1,11 +1,12 @@
 .newMessage{
   width: 100%;
+  background-color: #EBEBEB;
 }
 .header{
  width:90%;
  margin: 0 auto;
  height:40px;
- background-color: cadetblue;
+ background-color: #EBEBEB;
  display: flex;
  align-items: center;
 }
@@ -19,7 +20,7 @@
   width:90%;
   margin: 0 auto;
   height:50px;
-  background-color: brown;
+  background-color: #EBEBEB;
  display: flex;
  align-items: center;
 
@@ -39,8 +40,8 @@
   display: flex;
   align-items: center;
   height: 65px;
-  background-color:white;
-  border-bottom: 1px solid pink;
+  background-color:#EBEBEB;
+  border-bottom: 1px solid gray;
 
 }
 .mesageBody{
@@ -73,7 +74,7 @@ display: flex;
 align-items: center;
 }
 .messageHolder{
-  border:1px solid red;
+  border:1px solid gray;
 }
 .MBody{
   line-height: 1.2em;
@@ -89,10 +90,12 @@ display: block;
 }
 .nameM{
   font-size: 17px;
-  font-weight: 400;
+  font-weight: 500;
 }
 .locationM{
    font-size: 12px;
+   color:gray;
+   font-style:italic;
 }
 .replyM{
   margin-left: 3.5%;
@@ -102,11 +105,15 @@ display: block;
   width:75px;
   border-radius: 50px;
   border:0;
+  background-color: #F71515;
+  color:white;
 }
 .replyM button{
   width:75px;
   border-radius: 50px;
   border:0;
+  background-color: #4A86E8;
+  color:white;
 }
 .logoLMNumber img{
   height:29px;
@@ -117,9 +124,12 @@ display: block;
 }
 .dateLM{
   padding-right: 10px;
+  color:gray;
+  font-style:italic;
 }
 .timeLM{
 padding-right: 6px;
+color:gray;
 }
 .logoLMNumber{
   position: relative;
@@ -135,8 +145,21 @@ padding-right: 6px;
   width:75px;
   border-radius: 50px;
   border:0;
+  background-color: #607D8B;
+  color:white;
+
 
 }
 .viewM{
   margin-left: 3.5%;
+}
+.textNewMessage{
+  color:red;
+  font-weight: 500;
+
+}
+.loadMore button{
+  border:1px solid #9900FF;
+  color:#5D5D5D;
+  background-color: #FFFFFF;
 }
