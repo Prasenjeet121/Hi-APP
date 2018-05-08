@@ -10,11 +10,29 @@
   margin-left:0;
   margin-right: 0;
 
-}
-.bodySingleHolder1{
 
-  flex-grow:1;
+}
+.bodySingleHolderStatic1{
+
+
   margin-right:1%;
   margin-left: 1%;
   height:100px;
+  width:33.33%;
+}
+.bodySingleHolderStatic2{
+
+
+  margin-right:1%;
+  margin-left: 1%;
+  height:100px;
+  width:33.33%;
+}
+.bodySingleHolderStatic3{
+
+
+  margin-right:1%;
+  margin-left: 1%;
+  height:100px;
+  width:33.33%;
 }

@@ -29,6 +29,10 @@ import { ChatSingleBodyComponent } from './body/chat-room/single-chat/chat-singl
 import { PeopleSingleListService } from './body/chat-room/single-chat/people-single-list/people-single-list.service';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { SearchResultComponent } from './header/search-result/search-result.component';
+import { MainPageComponent } from './home/main-page/main-page.component';
+import { SignUpComponent } from './home/sign-up/sign-up.component';
+import { SignInComponent } from './home/sign-in/sign-in.component';
+import { NewPeopleUpdateComponent } from './home/new-people-update/new-people-update.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +60,11 @@ import { SearchResultComponent } from './header/search-result/search-result.comp
     ChatRoomComponent,
     PeopleSingleListComponent,
     ChatSingleBodyComponent,
-    SearchResultComponent
+    SearchResultComponent,
+    MainPageComponent,
+    SignUpComponent,
+    SignInComponent,
+    NewPeopleUpdateComponent
   ],
   imports: [
     NgbModule.forRoot(),

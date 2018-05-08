@@ -7,9 +7,25 @@
 </div>
 
 <div class="bodySingleHolder">
-  <div class="bodySingleHolder1"> <app-chat-single-body></app-chat-single-body></div>
-  <div class="bodySingleHolder1"> <app-chat-single-body></app-chat-single-body></div>
-  <div class="bodySingleHolder1"> <app-chat-single-body></app-chat-single-body></div>
+  <div class="bodySingleHolderStatic1">
+      <div class="bodySingleHolder1" *ngIf="chatBodyObject1">
+          <app-chat-single-body [ProfilePictureSingle]="chatBodyObject1.ProfilePictureSingleParent" [StatusSingle]="chatBodyObject1.StatusSingleParent" [InputBoxClassNameSingle]="chatBodyObject1.InputBoxClassNameSingleParent"></app-chat-single-body>
+        </div>
+  </div>
+  <div class="bodySingleHolderStatic2">
+      <div class="bodySingleHolder2" *ngIf="chatBodyObject2">
+          <app-chat-single-body [ProfilePictureSingle]="chatBodyObject2.ProfilePictureSingleParent" [StatusSingle]="chatBodyObject2.StatusSingleParent" [InputBoxClassNameSingle]="chatBodyObject2.InputBoxClassNameSingleParent"></app-chat-single-body>
+        </div>
+  </div>
+
+  <div class="bodySingleHolderStatic3">
+      <div class="bodySingleHolder3" *ngIf="chatBodyObject3">
+          <app-chat-single-body [ProfilePictureSingle]="chatBodyObject3.ProfilePictureSingleParent" [StatusSingle]="chatBodyObject3.StatusSingleParent" [InputBoxClassNameSingle]="chatBodyObject3.InputBoxClassNameSingleParent"></app-chat-single-body>
+      </div>
+  </div>
+
 
 
 </div>
+
+
