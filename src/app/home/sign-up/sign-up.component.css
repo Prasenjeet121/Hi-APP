@@ -1,0 +1,43 @@
+.formSignUp{
+  background-color: aquamarine;
+}
+.signUpBody{
+  width:90%;
+  margin:0 auto;
+   background-color: #EBEBEB;
+}
+.inputContainer{
+  width:100%;
+  padding-top:2%;
+}
+.signUpInput{
+  width:100%;
+  padding-left:1%;
+  border:0;
+  outline-color: #009688;
+  height:35px;
+  font-size: 17px;
+
+}
+.checkedBoxContainer{
+  text-align: right;
+  padding-top:1%;
+  font-style:italic;
+  padding-right:1%;
+}
+.buttonContainer{
+text-align: center;
+padding-top:1%;
+padding-bottom:1%;
+}
+.buttonContainer button{
+  background-color: #607D8B;
+  height:45px;
+  width:145px;
+  border:0;
+  border-radius: 100px;
+  color:white;
+  font-weight: 500;
+  font-size: 16px;
+
+}

@@ -9,7 +9,7 @@ import { NavbarComponent } from './header/navbar/navbar.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  
 
-  
+
+
 }

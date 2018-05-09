@@ -1,14 +1,18 @@
 .headingsIconHolder{
 display: flex;
 align-items: center;
-
+width:100%;
 }
-
+.colHeading{
+  width:100%;
+}
 .headings{
   height: 65px;
   background-color:#EBEBEB;
 display: flex;
 align-items: center;
+width:100%;
+
 }
 
 

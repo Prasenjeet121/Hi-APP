@@ -1,0 +1,21 @@
+.mainPageBody{
+   height:100%;
+   max-width:100%;
+  background-color: antiquewhite;
+
+
+}
+.leftMainBody{
+  height:90%;
+  max-width:100%;
+  background-color: aqua;
+
+
+}
+.rightMainBody{
+  height:90%;
+  max-width:100%;
+  background-color: brown;
+
+}
+
