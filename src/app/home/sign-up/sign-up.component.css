@@ -1,5 +1,5 @@
 .formSignUp{
-  background-color: aquamarine;
+  background-color: #EBEBEB;
 }
 .signUpBody{
   width:90%;
@@ -39,5 +39,11 @@ padding-bottom:1%;
   color:white;
   font-weight: 500;
   font-size: 16px;
+  outline: none;
+
+}
+.signUptextHolder p{
+   font-size: 24px;
+   font-weight: 500;
 
 }

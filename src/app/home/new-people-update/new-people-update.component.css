@@ -2,32 +2,41 @@
   height: 55px;
   width:55px;
   border-radius:100px;
+  border:1px solid white;
 
 }
 .newPeopleUpdate{
   background-color: #607D8B;
+  width:100%;
+
 }
 .imgProfile{
   padding-left: 1.2%;
+  float: left;
+
 }
 .listContainerNewPeople{
-
+  width:100%;
   display: flex;
   align-items: center;
   padding-bottom:1%;
   padding-top:1%;
-  border-bottom: 1px solid #B9B9B9;
+
 }
 .namePeople{
-  margin-left:1%;
+  margin-left:2.5%;
   color:white;
   font-size:18px;
   font-weight: 500;
+  float: left;
+
 }
 .fixedTitles{
-  margin-left:1.5%;
+  margin-left:3%;
   letter-spacing: 0.5em;
   word-spacing: 1.2em;
   font-style:italic;
   color:white;
+  float: left;
+
 }

@@ -1,21 +1,108 @@
 .mainPageBody{
    height:100%;
-   max-width:100%;
+   width:100%;
   background-color: antiquewhite;
+  position: absolute;
 
 
 }
-.leftMainBody{
-  height:90%;
-  max-width:100%;
-  background-color: aqua;
 
-
-}
 .rightMainBody{
-  height:90%;
-  max-width:100%;
+
+  width:50%;
   background-color: brown;
+   height:90%;
+   float: right;
+}
+
+
+.listPeopleHolder{
+  display: flex;
+  align-items: center;
+
+  background-color: #607D8B;
+  margin:0 auto;
+  width: 90%;
+}
+
+.leftMainBody{
+   float: left;
+  width:50%;
+  background-color: aqua;
+  height:90%;
+   padding-top:3%;
+   padding-bottom:3%;
+   background-color: #607D8B;
+  display: flex;
+  align-items: center;
+  overflow-y: auto;
+
 
 }
 
+.imgProfile img{
+  height: 50px;
+  width:50px;
+  border-radius: 100px;
+  border: 1px solid white;
+  height: 55px;
+  width:55px;
+  border-radius:100px;
+  border:1px solid white;
+}
+
+.imgProfile{
+  margin-left:2%;
+
+}
+
+.namePeople{
+  margin-left: 2%;
+  color:white;
+  font-size:18px;
+  font-weight: 500;
+}
+.fixedTitles{
+  margin-left: 2%;
+  letter-spacing: 0.5em;
+  word-spacing: 1.2em;
+  font-style:italic;
+  color:white;
+}
+.test{
+  width:100%;
+}
+.listContainerNewPeople{
+  width:80%;
+  background-color: #607D8B;
+  margin:0 auto;
+  margin-top:2%;
+  margin-bottom:2%;
+}
+
+
+
+
+
+.logoHolder{
+  height:10%;
+  background-color: blanchedalmond;
+}
+.sloganHolder{
+ height:25%;
+background-color: chocolate;
+}
+.formSignUpHolder{
+ height: 65%;;
+ background-color: #EBEBEB;
+}
+
+.signText{
+  text-align: center;
+  margin-top:2%;
+   color:darkblue;
+   font-weight: 500;
+   border-top:1px solid gray;
+   width:30%;
+   margin:0 auto;
+}

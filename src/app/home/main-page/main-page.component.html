@@ -1,13 +1,38 @@
 
       <div class="mainPageBody">
-        <div class="leftMainBody">
-          hello
-        </div>
-        <div class="rightMainBody">
-        bye
-        </div>
+
+        <span class="leftMainBody">
+          <div class="listPeopleHolder">
+                <span class="test">
+
+                    <div class="listContainerNewPeople" *ngFor="let listPeople of listOfPeople">
+
+                        <span class="imgProfile">
+                           <img src="{{listPeople.profilePicture}}" alt="{{listPeople.nameOfPerson}}">
+                        </span>
+                        <span class="namePeople">{{listPeople.nameOfPerson}}</span>
+                        <span class="fixedTitles">joined {{listPeople.timeOfJoining}}h ago</span>
+
+                      </div>
+
+                </span>
+          </div>
+      </span>
+
+        <span class="rightMainBody">
+               <div class="logoHolder">
+                 Hello logo
+               </div>
+               <div class="sloganHolder">
+                 hello slogan
+               </div>
+               <div class="formSignUpHolder">
+                 <app-sign-up></app-sign-up>
+                 <div class="signText">
+                        <p>Sign In</p>
+                 </div>
+               </div>
+        </span>
       </div>
-
-
 
 
