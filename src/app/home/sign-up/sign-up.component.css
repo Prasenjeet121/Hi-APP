@@ -43,7 +43,10 @@ padding-bottom:1%;
 
 }
 .signUptextHolder p{
-   font-size: 24px;
-   font-weight: 500;
+  color: #14171a;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 16px auto;
+    font-weight: 500;
 
 }

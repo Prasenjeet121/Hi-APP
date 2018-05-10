@@ -1,7 +1,7 @@
 .mainPageBody{
    height:100%;
    width:100%;
-  background-color: antiquewhite;
+   background-color: #EBEBEB;
   position: absolute;
 
 
@@ -11,8 +11,9 @@
 
   width:50%;
   background-color: brown;
-   height:90%;
+   height:95%;
    float: right;
+   border-bottom:1px solid gray;
 }
 
 
@@ -29,14 +30,14 @@
    float: left;
   width:50%;
   background-color: aqua;
-  height:90%;
+  height:95%;
    padding-top:3%;
    padding-bottom:3%;
    background-color: #607D8B;
   display: flex;
   align-items: center;
   overflow-y: auto;
-
+  border-bottom:1px solid gray;
 
 }
 
@@ -86,14 +87,17 @@
 
 .logoHolder{
   height:10%;
-  background-color: blanchedalmond;
+  background-color: #EBEBEB;
+  display: flex;
+  align-items: center;
 }
 .sloganHolder{
  height:25%;
-background-color: chocolate;
+ background-color: #EBEBEB;
 }
 .formSignUpHolder{
- height: 65%;;
+padding-top:30px;
+ height: 65%;
  background-color: #EBEBEB;
 }
 
@@ -105,4 +109,83 @@ background-color: chocolate;
    border-top:1px solid gray;
    width:30%;
    margin:0 auto;
+}
+
+
+.sloganBody{
+  margin:0 auto;
+  width:80%;
+  background-color: #EBEBEB;
+
+}
+.sloganHolder{
+  display: flex;
+  align-items: center;
+}
+.sloganBody span{
+  display: block;
+  font-weight: 700;
+  font-size: 27px;
+    line-height: 32px;
+    padding-top:7px;
+
+
+
+}
+.imgLogo img{
+  height:45px;
+  height:45px;
+}
+.loginHolder{
+  margin:0 auto;
+  width: 80%;
+  background-color: #EBEBEB;
+display: flex;
+align-items: center;
+}
+.userNameLogin{
+    height:40px;
+    width:40%;
+    margin-right:20px;
+    padding-left:5px;
+    outline-color: #607D8B;
+
+
+}
+.passwordLogin{
+height:40px;
+    width:40%;
+    margin-right:20px;
+    padding-left:5px;
+    outline-color: #607D8B;
+
+}
+.buttonLogin{
+  height:40px;
+  width:110px;
+  border:2px solid  #607D8B;
+  border-radius: 100px;
+  background-color: #EBEBEB;
+  outline: none;
+  color: #607D8B;
+  font-weight: 500;
+}
+
+
+.downInfo{
+  width:90%;
+  height:5%;
+  background-color: #EBEBEB;
+ display: flex;
+ align-items: center;
+ margin:0 auto;
+
+
+}
+.downInfo span{
+  flex-grow: 1;
+  font-size: 12px;
+ font-weight: 500;
+ color:gray;
+
 }

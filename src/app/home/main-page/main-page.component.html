@@ -21,18 +21,33 @@
 
         <span class="rightMainBody">
                <div class="logoHolder">
-                 Hello logo
+                  <div class="loginHolder">
+
+                    <input type="text" class="userNameLogin" placeholder="username,email">
+                    <input type="password" class="passwordLogin"  placeholder="password">
+                    <button class="buttonLogin" >Log in</button>
+                  </div>
                </div>
                <div class="sloganHolder">
-                 hello slogan
+                      <div class="sloganBody">
+                        <span class="imgLogo">
+                          <img src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c53e.png" alt="">
+                        </span>
+                        <span class="text1">Connecting people around world</span>
+                        <span>Securily</span>
+                      </div>
+
                </div>
                <div class="formSignUpHolder">
                  <app-sign-up></app-sign-up>
-                 <div class="signText">
-                        <p>Sign In</p>
-                 </div>
+
                </div>
         </span>
+        <div class="downInfo" >
+
+          <span *ngFor= "let downListText of downListTexts" class="text1">{{downListText}}</span>
+        </div>
       </div>
+
 
 

@@ -48,6 +48,25 @@ export class MainPageComponent implements OnInit {
     }
   ];
 
+  downListTexts = [
+    'About',
+    'Help Center',
+    'Blog',
+    'Status',
+    'Jobs',
+    'Terms',
+    'Privacy Policy',
+    'Cookies',
+    'Ads info',
+    'Brand',
+    'Apps',
+    'Advertise',
+    'Marketing',
+    'Businesses',
+    'Developers',
+    'Directory',
+    'Settings',
+  ];
 
   constructor() { }
 
